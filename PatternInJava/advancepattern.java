@@ -10,7 +10,7 @@ public class advancepattern {
         System.out.println("3. pattern 3");
         System.out.println("4. pattern 4");
         System.out.println("5. pattern 5");
-        System.out.println("6. pattern 6");
+        System.out.println("6. Print a hollow Butterfly.");
         System.out.println("7. pattern 7");
         System.out.println("8. pattern 8");
         System.out.println("9. pattern 9");
@@ -52,11 +52,11 @@ public class advancepattern {
                 pattern_8();
                 break;
             case 9:
-                System.out.println("9. pattern 9");
+                System.out.println("9. Print a hollow Rhombus");
                 pattern_9();
                 break;
             case 10:
-                System.out.println("10. pattern 10");
+                System.out.println("10. Print Pascal’s Triangle");
                 pattern_10();
                 break;
             default:
@@ -144,6 +144,7 @@ public class advancepattern {
     }
 
     static void pattern_6() {
+        System.out.println("Print a hollow Butterfly.");
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= i; j++) {
                 if (j == 1 || i == j) {
@@ -210,6 +211,7 @@ public class advancepattern {
     }
 
     static void pattern_9() {
+        System.out.println("Print a hollow Rhombus");
            for(int i=1;i<=5;i++){
                for(int j=1;j<=5-i;j++){
                   System.out.print(" ");
@@ -227,6 +229,7 @@ public class advancepattern {
     }
 
     static void pattern_10() {
+        System.out.println("Print Pascal’s Triangle");
         for (int i=1;i<=5;i++) {
             for(int j=1;j<=5-i;j++){
                 System.out.print(" ");
